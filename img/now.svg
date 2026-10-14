@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 120" width="360"><g font-family="Georgia,serif" font-size="13" fill="#111" stroke="#111" fill="none">
+<circle cx="60" cy="60" r="5" fill="#111"/><circle cx="300" cy="60" r="5" fill="#111"/>
+<line x1="70" y1="60" x2="290" y2="60" stroke-dasharray="4 4"/>
+<line x1="180" y1="40" x2="180" y2="80"/></g>
+<g font-family="Georgia,serif" font-size="13" fill="#111" text-anchor="middle"><text x="60" y="90">this</text><text x="300" y="90">that</text><text x="180" y="30">seat</text><text x="180" y="105">the contrast, read now</text></g></svg>
