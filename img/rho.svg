@@ -1,5 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 130" width="360"><g stroke="#111" fill="none">
-<line x1="30" y1="40" x2="330" y2="40"/><line x1="30" y1="34" x2="30" y2="46"/><line x1="330" y1="34" x2="330" y2="46"/>
-<line x1="30" y1="85" x2="210" y2="85" stroke-width="3"/><line x1="30" y1="79" x2="30" y2="91"/><line x1="210" y1="79" x2="210" y2="91"/></g>
-<g font-family="Georgia,serif" font-size="13" fill="#111"><text x="30" y="25">canvas: the span, c Δt</text><text x="30" y="110">mark: the separation, Δx</text>
-<text x="230" y="90">ρ = Δx / (c Δt)</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 200" width="380" font-family="Georgia,serif" font-size="13" fill="#111">
+<text x="30" y="24">canvas: the span, c Δt</text>
+<g stroke="#111" fill="none"><line x1="30" y1="45" x2="350" y2="45"/><line x1="30" y1="37" x2="30" y2="53"/><line x1="350" y1="37" x2="350" y2="53"/></g>
+<text x="30" y="94">mark: the separation, Δx</text>
+<g stroke="#111" fill="none"><line x1="30" y1="115" x2="220" y2="115" stroke-width="3"/><line x1="30" y1="107" x2="30" y2="123"/><line x1="220" y1="107" x2="220" y2="123"/></g>
+<text x="30" y="175" font-size="15">ρ = Δx / (c Δt)</text>
+</svg>

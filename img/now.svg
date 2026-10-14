@@ -1,5 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 120" width="360"><g font-family="Georgia,serif" font-size="13" fill="#111" stroke="#111" fill="none">
-<circle cx="60" cy="60" r="5" fill="#111"/><circle cx="300" cy="60" r="5" fill="#111"/>
-<line x1="70" y1="60" x2="290" y2="60" stroke-dasharray="4 4"/>
-<line x1="180" y1="40" x2="180" y2="80"/></g>
-<g font-family="Georgia,serif" font-size="13" fill="#111" text-anchor="middle"><text x="60" y="90">this</text><text x="300" y="90">that</text><text x="180" y="30">seat</text><text x="180" y="105">the contrast, read now</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 150" width="380" font-family="Georgia,serif" font-size="13" fill="#111">
+<text x="190" y="22" text-anchor="middle">seat</text>
+<g stroke="#111" fill="none"><line x1="190" y1="35" x2="190" y2="85"/><line x1="70" y1="60" x2="310" y2="60" stroke-dasharray="4 4"/></g>
+<circle cx="60" cy="60" r="5"/><circle cx="320" cy="60" r="5"/>
+<text x="60" y="100" text-anchor="middle">this</text><text x="320" y="100" text-anchor="middle">that</text>
+<text x="190" y="135" text-anchor="middle">the contrast, read now</text>
+</svg>
