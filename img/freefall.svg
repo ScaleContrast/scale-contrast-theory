@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 180" width="300"><line x1="65" y1="10" x2="65" y2="165" stroke="#111" stroke-dasharray="3 4"/><line x1="40" y1="20.0" x2="90" y2="20.0" stroke="#111"/><circle cx="65" cy="20.0" r="4" fill="#111"/><text x="100" y="24.0" font-family="Georgia,serif" font-size="13" fill="#111">t = 0.0 s, s = 0.00 m</text><line x1="40" y1="28.6" x2="90" y2="28.6" stroke="#111"/><circle cx="65" cy="28.6" r="4" fill="#111"/><text x="100" y="32.6" font-family="Georgia,serif" font-size="13" fill="#111">t = 0.5 s, s = 1.23 m</text><line x1="40" y1="54.3" x2="90" y2="54.3" stroke="#111"/><circle cx="65" cy="54.3" r="4" fill="#111"/><text x="100" y="58.3" font-family="Georgia,serif" font-size="13" fill="#111">t = 1.0 s, s = 4.91 m</text><line x1="40" y1="97.3" x2="90" y2="97.3" stroke="#111"/><circle cx="65" cy="97.3" r="4" fill="#111"/><text x="100" y="101.3" font-family="Georgia,serif" font-size="13" fill="#111">t = 1.5 s, s = 11.04 m</text><line x1="40" y1="157.3" x2="90" y2="157.3" stroke="#111"/><circle cx="65" cy="157.3" r="4" fill="#111"/><text x="100" y="161.3" font-family="Georgia,serif" font-size="13" fill="#111">t = 2.0 s, s = 19.62 m</text><text x="190" y="80" font-family="Georgia,serif" font-size="13" fill="#111">one rate, held</text><text x="190" y="98" font-family="Georgia,serif" font-size="13" fill="#111">marks accumulate</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" width="360" font-family="Georgia,serif" font-size="13" fill="#111">
+<line x1="60" y1="30" x2="60" y2="190" stroke="#111" stroke-width="1.5"/>
+<g stroke="#111"><line x1="50" y1="30" x2="70" y2="30"/><line x1="50" y1="70" x2="70" y2="70"/><line x1="50" y1="110" x2="70" y2="110"/><line x1="50" y1="190" x2="70" y2="190"/></g>
+<text x="85" y="34">t = 0.00 s · s = 0 m · the seat</text>
+<text x="85" y="74">t = 1.00 s · s = 4.905 m · quarter</text>
+<text x="85" y="114">t = 1.414 s · s = 9.81 m · half</text>
+<text x="85" y="194">t = 2.00 s · s = 19.62 m · the mark</text>
+<text x="20" y="16">one rate held, s = ½gt²</text>
+<text x="20" y="214" fill="#555" font-size="11">marks to scale in s; H = 19.62 m</text>
+</svg>
