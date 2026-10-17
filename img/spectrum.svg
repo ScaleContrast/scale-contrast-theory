@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 200" width="460" font-family="Georgia,serif" font-size="13" fill="#111">
+<line x1="40" y1="100" x2="220" y2="100" stroke="#111" stroke-width="2"/><line x1="220" y1="100" x2="400" y2="100" stroke="#999" stroke-dasharray="4 4"/><line x1="40" y1="95" x2="40" y2="105" stroke="#111"/><line x1="76" y1="95" x2="76" y2="105" stroke="#111"/><line x1="112" y1="95" x2="112" y2="105" stroke="#111"/><line x1="148" y1="95" x2="148" y2="105" stroke="#111"/><line x1="184" y1="95" x2="184" y2="105" stroke="#111"/><line x1="220" y1="95" x2="220" y2="105" stroke="#111"/><line x1="256" y1="95" x2="256" y2="105" stroke="#111"/><line x1="292" y1="95" x2="292" y2="105" stroke="#111"/><line x1="328" y1="95" x2="328" y2="105" stroke="#111"/><line x1="364" y1="95" x2="364" y2="105" stroke="#111"/><line x1="400" y1="95" x2="400" y2="105" stroke="#111"/>
+<line x1="220" y1="60" x2="220" y2="140" stroke="#111"/>
+<text x="40" y="40">within the spectrum: the ratio is read</text>
+<text x="230" y="75" font-size="12">edge</text>
+<text x="40" y="128" font-size="12" fill="#555">1 decade</text><text x="400" y="128" font-size="12" fill="#555" text-anchor="end">10 decades</text>
+<text x="40" y="170">beyond the edge: nothing is read</text>
+<text x="40" y="186" font-size="12" fill="#555">where the ratio stops, a label such as mass is given</text>
+</svg>
