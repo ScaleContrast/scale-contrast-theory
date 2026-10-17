@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" width="360" font-family="Georgia,serif" font-size="13" fill="#111">
 <line x1="60" y1="30" x2="60" y2="190" stroke="#111" stroke-width="1.5"/>
 <g stroke="#111"><line x1="50" y1="30" x2="70" y2="30"/><line x1="50" y1="70" x2="70" y2="70"/><line x1="50" y1="110" x2="70" y2="110"/><line x1="50" y1="190" x2="70" y2="190"/></g>
-<text x="85" y="34">t = 0.00 s · s = 0 m · the seat</text>
-<text x="85" y="74">t = 1.00 s · s = 4.905 m · quarter</text>
-<text x="85" y="114">t = 1.414 s · s = 9.81 m · half</text>
-<text x="85" y="194">t = 2.00 s · s = 19.62 m · the mark</text>
-<text x="20" y="16">one rate held, s = ½gt²</text>
-<text x="20" y="214" fill="#555" font-size="11">marks to scale in s; H = 19.62 m</text>
+<text x="85" y="34">t = 0.00 s · h/H = 0 · the seat</text>
+<text x="85" y="74">t = 1.00 s · h/H = 0.25 · quarter</text>
+<text x="85" y="114">t = 1.414 s · h/H = 0.50 · half</text>
+<text x="85" y="194">t = 2.00 s · h/H = 1 · the mark</text>
+<text x="20" y="16">one rate held, h / H = (t / T)²</text>
+<text x="20" y="214" fill="#555" font-size="11">H = 19.62 m, T = 2.00 s; marks to scale in h</text>
 </svg>

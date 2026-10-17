@@ -65,7 +65,9 @@ img{max-width:100%;height:auto}table{display:block;overflow-x:auto}@media(max-wi
 <h2>Examples</h2>
 <p><em>Freefall</em> is a held rate.</p>
 <figure style="margin:1rem 0"><img src="img/freefall.svg" alt="Freefall: one rate held, marks accumulating" style="max-width:100%"></figure>
-<p>Canvas: the disparity. Rate: the room's rate, read from freefall. Mark: the distance fallen, s = ½gt². g is a label after the reading. The continuation holds while the rate is one rate, and stops where a second rate, drag, enters.</p>
+<p>Canvas: the disparity. Rate: the room's rate, read from freefall. Mark: the height fallen, h, read against the whole height, H, as the elapsed time, t, is read against the whole time, T.</p>
+<p class="form">h / H = (t / T)²</p>
+<p>No constant is seated. g = 2H/T² is a label after the reading. The continuation holds while the rate is one rate, and stops where a second rate, drag, enters.</p>
 <p><em>Orbit</em> is a closed relative-to.</p>
 <figure style="margin:1rem 0"><img src="img/orbit.svg" alt="Orbit: the engagement meets itself after one full facing" style="max-width:100%"></figure>
 <p>One full turn at 1 AU is one year. With the year as the unit of time and the AU as the unit of distance, the tally returned is K = v²r = 4π². It is closed in that the engagement meets itself after the full facing, and open in that the rate is held, not produced from a prior. No mass, no G.</p>
@@ -79,7 +81,7 @@ img{max-width:100%;height:auto}table{display:block;overflow-x:auto}@media(max-wi
 <table style="border-collapse:collapse;width:100%;font-size:.95rem;margin:1rem 0">
 <tr style="border-bottom:1px solid #ddd"><th style="text-align:left;font-weight:normal;font-style:italic;padding:.4rem">Row</th><th style="text-align:left;font-weight:normal;font-style:italic;padding:.4rem">Read at the seat</th><th style="text-align:left;font-weight:normal;font-style:italic;padding:.4rem">Label after</th></tr>
 <tr style="border-bottom:1px solid #eee"><td style="padding:.4rem">Year</td><td style="padding:.4rem">K = v²r = 4π²</td><td style="padding:.4rem">GM = 4π²</td></tr>
-<tr style="border-bottom:1px solid #eee"><td style="padding:.4rem">Freefall</td><td style="padding:.4rem">s = ½gt², the rate held</td><td style="padding:.4rem">g</td></tr>
+<tr style="border-bottom:1px solid #eee"><td style="padding:.4rem">Freefall</td><td style="padding:.4rem">h / H = (t / T)², the rate held</td><td style="padding:.4rem">g = 2H/T²</td></tr>
 <tr><td style="padding:.4rem">Capacitor</td><td style="padding:.4rem">ρσ(t₁ + t₂) = ρσ(t₁) · ρσ(t₂)</td><td style="padding:.4rem">RC</td></tr>
 </table>
 <p>The tally is returned by the seating, not fetched. The label names what was already read.</p>
