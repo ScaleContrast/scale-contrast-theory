@@ -19,7 +19,7 @@ img{max-width:100%;height:auto}table{display:block;overflow-x:auto}@media(max-wi
 </style>
 </head>
 <body>
-<nav style="font-size:.95rem"><a href="faq.html">FAQ</a> · <a href="#pie">Pie</a> · <a href="#papers">Papers</a> · <a href="#contact">Contact</a></nav>
+<nav style="font-size:.95rem"><a href="faq.html">FAQ</a> · <a href="#pie">Pie</a> · <a href="#papers">Papers</a> · <a href="#feedback">Feedback</a> · <a href="#contact">Contact</a></nav>
 <h1>Scale Contrast Theory</h1>
 <p style="color:#444;margin-top:-.5rem">One formula, any expression. Every measurement is one distance read against another.</p>
 <section id="intro">
@@ -224,6 +224,27 @@ img{max-width:100%;height:auto}table{display:block;overflow-x:auto}@media(max-wi
 <dt>What does gravity do?</dt>
 <dd>Nothing. Freefall is a rate held; force is a label put on it after.</dd>
 </dl>
+<h2 id="feedback">Feedback</h2>
+<p>Send a statement or a query. The message opens in your mail client, addressed to the contact below.</p>
+<form id="feedback-form" style="margin:1rem 0;max-width:36rem">
+<label for="fb-body" style="display:block;margin:.6rem 0 .25rem;font-style:italic">Statement or query</label>
+<textarea id="fb-body" name="body" required rows="6" style="width:100%;box-sizing:border-box;padding:.5rem;font:inherit;border:1px solid #ccc;background:#fff"></textarea>
+<label for="fb-from" style="display:block;margin:.6rem 0 .25rem;font-style:italic">Your email (optional, for a reply)</label>
+<input id="fb-from" name="from" type="email" style="width:100%;box-sizing:border-box;padding:.5rem;font:inherit;border:1px solid #ccc;background:#fff">
+<button type="submit" style="margin-top:.9rem;padding:.45rem .9rem;font:inherit;border:1px solid #111;background:#fff;cursor:pointer">Open in mail</button>
+</form>
+<script>
+document.getElementById("feedback-form").addEventListener("submit", function (e) {
+  e.preventDefault();
+  var body = document.getElementById("fb-body").value.trim();
+  var from = document.getElementById("fb-from").value.trim();
+  if (!body) return;
+  var text = body;
+  if (from) text += "\n\n— reply to: " + from;
+  location.href = "mailto:scalecontrast@zohomailcloud.ca?subject=" + encodeURIComponent("SCT feedback") + "&body=" + encodeURIComponent(text);
+});
+</script>
+
 <h2 id="contact">Contact</h2>
 <p>Bill Robinson · <a href="mailto:scalecontrast@zohomailcloud.ca">scalecontrast@zohomailcloud.ca</a></p>
 </body>
